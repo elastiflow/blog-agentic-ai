@@ -1,0 +1,135 @@
+trap_id,org_id,device_id,device_ip,collector_id,trap_type,severity,description,timestamp,additional_info
+trap-dev-1-1,org-123,dev-1,101.98.5.12,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:00:00,SNMP trap received
+trap-dev-1-2,org-123,dev-1,101.98.5.12,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:00:30,SNMP trap received
+trap-dev-1-3,org-123,dev-1,101.98.5.12,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:01:00,SNMP trap received
+trap-dev-1-4,org-123,dev-1,101.98.5.12,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:01:30,SNMP trap received
+trap-dev-1-5,org-123,dev-1,101.98.5.12,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:02:00,SNMP trap received
+trap-dev-2-1,org-123,dev-2,103.12.72.49,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:01:00,SNMP trap received
+trap-dev-2-2,org-123,dev-2,103.12.72.49,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:01:30,SNMP trap received
+trap-dev-2-3,org-123,dev-2,103.12.72.49,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:02:00,SNMP trap received
+trap-dev-2-4,org-123,dev-2,103.12.72.49,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:02:30,SNMP trap received
+trap-dev-2-5,org-123,dev-2,103.12.72.49,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:03:00,SNMP trap received
+trap-dev-3-1,org-123,dev-3,103.16.102.20,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:02:00,SNMP trap received
+trap-dev-3-2,org-123,dev-3,103.16.102.20,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:02:30,SNMP trap received
+trap-dev-3-3,org-123,dev-3,103.16.102.20,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:03:00,SNMP trap received
+trap-dev-3-4,org-123,dev-3,103.16.102.20,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:03:30,SNMP trap received
+trap-dev-3-5,org-123,dev-3,103.16.102.20,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:04:00,SNMP trap received
+trap-dev-4-1,org-123,dev-4,103.16.102.30,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:03:00,SNMP trap received
+trap-dev-4-2,org-123,dev-4,103.16.102.30,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:03:30,SNMP trap received
+trap-dev-4-3,org-123,dev-4,103.16.102.30,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:04:00,SNMP trap received
+trap-dev-4-4,org-123,dev-4,103.16.102.30,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:04:30,SNMP trap received
+trap-dev-4-5,org-123,dev-4,103.16.102.30,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:05:00,SNMP trap received
+trap-dev-5-1,org-123,dev-5,103.16.102.34,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:04:00,SNMP trap received
+trap-dev-5-2,org-123,dev-5,103.16.102.34,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:04:30,SNMP trap received
+trap-dev-5-3,org-123,dev-5,103.16.102.34,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:05:00,SNMP trap received
+trap-dev-5-4,org-123,dev-5,103.16.102.34,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:05:30,SNMP trap received
+trap-dev-5-5,org-123,dev-5,103.16.102.34,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:06:00,SNMP trap received
+trap-dev-6-1,org-123,dev-6,103.225.136.1,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:05:00,SNMP trap received
+trap-dev-6-2,org-123,dev-6,103.225.136.1,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:05:30,SNMP trap received
+trap-dev-6-3,org-123,dev-6,103.225.136.1,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:06:00,SNMP trap received
+trap-dev-7-1,org-123,dev-7,103.225.136.10,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:06:00,SNMP trap received
+trap-dev-7-2,org-123,dev-7,103.225.136.10,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:06:30,SNMP trap received
+trap-dev-7-3,org-123,dev-7,103.225.136.10,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:07:00,SNMP trap received
+trap-dev-7-4,org-123,dev-7,103.225.136.10,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:07:30,SNMP trap received
+trap-dev-8-1,org-123,dev-8,103.225.136.17,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:07:00,SNMP trap received
+trap-dev-8-2,org-123,dev-8,103.225.136.17,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:07:30,SNMP trap received
+trap-dev-8-3,org-123,dev-8,103.225.136.17,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:08:00,SNMP trap received
+trap-dev-8-4,org-123,dev-8,103.225.136.17,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:08:30,SNMP trap received
+trap-dev-8-5,org-123,dev-8,103.225.136.17,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:09:00,SNMP trap received
+trap-dev-9-1,org-123,dev-9,103.225.137.49,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:08:00,SNMP trap received
+trap-dev-9-2,org-123,dev-9,103.225.137.49,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:08:30,SNMP trap received
+trap-dev-9-3,org-123,dev-9,103.225.137.49,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:09:00,SNMP trap received
+trap-dev-10-1,org-123,dev-10,103.225.4.30,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:09:00,SNMP trap received
+trap-dev-10-2,org-123,dev-10,103.225.4.30,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:09:30,SNMP trap received
+trap-dev-10-3,org-123,dev-10,103.225.4.30,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:10:00,SNMP trap received
+trap-dev-10-4,org-123,dev-10,103.225.4.30,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:10:30,SNMP trap received
+trap-dev-11-1,org-123,dev-11,103.27.31.17,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:10:00,SNMP trap received
+trap-dev-11-2,org-123,dev-11,103.27.31.17,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:10:30,SNMP trap received
+trap-dev-11-3,org-123,dev-11,103.27.31.17,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:11:00,SNMP trap received
+trap-dev-12-1,org-123,dev-12,103.28.72.21,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:11:00,SNMP trap received
+trap-dev-12-2,org-123,dev-12,103.28.72.21,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:11:30,SNMP trap received
+trap-dev-12-3,org-123,dev-12,103.28.72.21,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:12:00,SNMP trap received
+trap-dev-12-4,org-123,dev-12,103.28.72.21,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:12:30,SNMP trap received
+trap-dev-12-5,org-123,dev-12,103.28.72.21,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:13:00,SNMP trap received
+trap-dev-13-1,org-123,dev-13,103.7.251.125,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:12:00,SNMP trap received
+trap-dev-13-2,org-123,dev-13,103.7.251.125,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:12:30,SNMP trap received
+trap-dev-13-3,org-123,dev-13,103.7.251.125,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:13:00,SNMP trap received
+trap-dev-13-4,org-123,dev-13,103.7.251.125,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:13:30,SNMP trap received
+trap-dev-13-5,org-123,dev-13,103.7.251.125,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:14:00,SNMP trap received
+trap-dev-14-1,org-123,dev-14,104.19.0.1,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:13:00,SNMP trap received
+trap-dev-14-2,org-123,dev-14,104.19.0.1,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:13:30,SNMP trap received
+trap-dev-14-3,org-123,dev-14,104.19.0.1,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:14:00,SNMP trap received
+trap-dev-14-4,org-123,dev-14,104.19.0.1,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:14:30,SNMP trap received
+trap-dev-14-5,org-123,dev-14,104.19.0.1,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:15:00,SNMP trap received
+trap-dev-15-1,org-123,dev-15,105.16.113.253,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:14:00,SNMP trap received
+trap-dev-15-2,org-123,dev-15,105.16.113.253,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:14:30,SNMP trap received
+trap-dev-15-3,org-123,dev-15,105.16.113.253,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:15:00,SNMP trap received
+trap-dev-15-4,org-123,dev-15,105.16.113.253,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:15:30,SNMP trap received
+trap-dev-15-5,org-123,dev-15,105.16.113.253,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:16:00,SNMP trap received
+trap-dev-16-1,org-123,dev-16,105.16.17.14,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:15:00,SNMP trap received
+trap-dev-16-2,org-123,dev-16,105.16.17.14,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:15:30,SNMP trap received
+trap-dev-16-3,org-123,dev-16,105.16.17.14,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:16:00,SNMP trap received
+trap-dev-16-4,org-123,dev-16,105.16.17.14,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:16:30,SNMP trap received
+trap-dev-16-5,org-123,dev-16,105.16.17.14,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:17:00,SNMP trap received
+trap-dev-17-1,org-123,dev-17,105.16.17.8,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:16:00,SNMP trap received
+trap-dev-17-2,org-123,dev-17,105.16.17.8,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:16:30,SNMP trap received
+trap-dev-17-3,org-123,dev-17,105.16.17.8,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:17:00,SNMP trap received
+trap-dev-17-4,org-123,dev-17,105.16.17.8,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:17:30,SNMP trap received
+trap-dev-17-5,org-123,dev-17,105.16.17.8,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:18:00,SNMP trap received
+trap-dev-18-1,org-123,dev-18,105.16.169.253,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:17:00,SNMP trap received
+trap-dev-18-2,org-123,dev-18,105.16.169.253,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:17:30,SNMP trap received
+trap-dev-18-3,org-123,dev-18,105.16.169.253,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:18:00,SNMP trap received
+trap-dev-18-4,org-123,dev-18,105.16.169.253,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:18:30,SNMP trap received
+trap-dev-19-1,org-123,dev-19,108.59.15.108,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:18:00,SNMP trap received
+trap-dev-19-2,org-123,dev-19,108.59.15.108,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:18:30,SNMP trap received
+trap-dev-19-3,org-123,dev-19,108.59.15.108,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:19:00,SNMP trap received
+trap-dev-19-4,org-123,dev-19,108.59.15.108,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:19:30,SNMP trap received
+trap-dev-19-5,org-123,dev-19,108.59.15.108,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:20:00,SNMP trap received
+trap-dev-20-1,org-123,dev-20,109.74.147.188,coll-1,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:19:00,SNMP trap received
+trap-dev-20-2,org-123,dev-20,109.74.147.188,coll-1,linkUp,Medium,Interface is back up.,2023-11-01 06:19:30,SNMP trap received
+trap-dev-20-3,org-123,dev-20,109.74.147.188,coll-1,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:20:00,SNMP trap received
+trap-dev-20-4,org-123,dev-20,109.74.147.188,coll-1,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:20:30,SNMP trap received
+trap-dev-20-5,org-123,dev-20,109.74.147.188,coll-1,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:21:00,SNMP trap received
+trap-dev-21-1,org-123,dev-21,110.164.71.193,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:20:00,SNMP trap received
+trap-dev-21-2,org-123,dev-21,110.164.71.193,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:20:30,SNMP trap received
+trap-dev-21-3,org-123,dev-21,110.164.71.193,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:21:00,SNMP trap received
+trap-dev-21-4,org-123,dev-21,110.164.71.193,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:21:30,SNMP trap received
+trap-dev-22-1,org-123,dev-22,111.87.3.5,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:21:00,SNMP trap received
+trap-dev-22-2,org-123,dev-22,111.87.3.5,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:21:30,SNMP trap received
+trap-dev-22-3,org-123,dev-22,111.87.3.5,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:22:00,SNMP trap received
+trap-dev-22-4,org-123,dev-22,111.87.3.5,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:22:30,SNMP trap received
+trap-dev-23-1,org-123,dev-23,112.190.193.5,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:22:00,SNMP trap received
+trap-dev-23-2,org-123,dev-23,112.190.193.5,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:22:30,SNMP trap received
+trap-dev-23-3,org-123,dev-23,112.190.193.5,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:23:00,SNMP trap received
+trap-dev-23-4,org-123,dev-23,112.190.193.5,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:23:30,SNMP trap received
+trap-dev-23-5,org-123,dev-23,112.190.193.5,coll-2,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:24:00,SNMP trap received
+trap-dev-24-1,org-123,dev-24,116.66.193.173,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:23:00,SNMP trap received
+trap-dev-24-2,org-123,dev-24,116.66.193.173,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:23:30,SNMP trap received
+trap-dev-24-3,org-123,dev-24,116.66.193.173,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:24:00,SNMP trap received
+trap-dev-24-4,org-123,dev-24,116.66.193.173,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:24:30,SNMP trap received
+trap-dev-25-1,org-123,dev-25,118.103.136.101,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:24:00,SNMP trap received
+trap-dev-25-2,org-123,dev-25,118.103.136.101,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:24:30,SNMP trap received
+trap-dev-25-3,org-123,dev-25,118.103.136.101,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:25:00,SNMP trap received
+trap-dev-25-4,org-123,dev-25,118.103.136.101,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:25:30,SNMP trap received
+trap-dev-26-1,org-123,dev-26,119.2.119.49,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:25:00,SNMP trap received
+trap-dev-26-2,org-123,dev-26,119.2.119.49,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:25:30,SNMP trap received
+trap-dev-26-3,org-123,dev-26,119.2.119.49,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:26:00,SNMP trap received
+trap-dev-27-1,org-123,dev-27,124.211.34.133,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:26:00,SNMP trap received
+trap-dev-27-2,org-123,dev-27,124.211.34.133,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:26:30,SNMP trap received
+trap-dev-27-3,org-123,dev-27,124.211.34.133,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:27:00,SNMP trap received
+trap-dev-27-4,org-123,dev-27,124.211.34.133,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:27:30,SNMP trap received
+trap-dev-27-5,org-123,dev-27,124.211.34.133,coll-2,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:28:00,SNMP trap received
+trap-dev-28-1,org-123,dev-28,128.138.81.32,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:27:00,SNMP trap received
+trap-dev-28-2,org-123,dev-28,128.138.81.32,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:27:30,SNMP trap received
+trap-dev-28-3,org-123,dev-28,128.138.81.32,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:28:00,SNMP trap received
+trap-dev-28-4,org-123,dev-28,128.138.81.32,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:28:30,SNMP trap received
+trap-dev-29-1,org-123,dev-29,129.10.113.1,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:28:00,SNMP trap received
+trap-dev-29-2,org-123,dev-29,129.10.113.1,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:28:30,SNMP trap received
+trap-dev-29-3,org-123,dev-29,129.10.113.1,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:29:00,SNMP trap received
+trap-dev-29-4,org-123,dev-29,129.10.113.1,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:29:30,SNMP trap received
+trap-dev-29-5,org-123,dev-29,129.10.113.1,coll-2,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:30:00,SNMP trap received
+trap-dev-30-1,org-123,dev-30,129.143.136.29,coll-2,linkDown,Low,Interface went down unexpectedly.,2023-11-01 06:29:00,SNMP trap received
+trap-dev-30-2,org-123,dev-30,129.143.136.29,coll-2,linkUp,Medium,Interface is back up.,2023-11-01 06:29:30,SNMP trap received
+trap-dev-30-3,org-123,dev-30,129.143.136.29,coll-2,coldStart,High,Device rebooted due to cold start.,2023-11-01 06:30:00,SNMP trap received
+trap-dev-30-4,org-123,dev-30,129.143.136.29,coll-2,warmStart,Critical,Device rebooted due to warm start.,2023-11-01 06:30:30,SNMP trap received
+trap-dev-30-5,org-123,dev-30,129.143.136.29,coll-2,authenticationFailure,Low,Authentication failure detected.,2023-11-01 06:31:00,SNMP trap received
