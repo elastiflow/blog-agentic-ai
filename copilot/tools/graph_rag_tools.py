@@ -111,6 +111,7 @@ def _common_vector_search(
         "orgId": org_id,
         "final_limit_k": top_k,
     }
+    query_parts.append("WITH node, similarity")
     where_conditions = ["node.org_id = $orgId"]
     if device_id:
         query_parts.append(
